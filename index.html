@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ 		<script src="https://kit.fontawesome.com/d18df24e58.js" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<style>
+		.jumbotron
+		{
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+			height: 70vh;
+		}
+		.darkened-image
+		{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('surf1.jpg');
+		}
+		</style>
+		<title>The Surfing Project</title>
+	</head>
+
+<body>
+
+	<header>
+    <div class="bg-dark fixed-top">
+      <div class="container-fluid">
+        <div class="row">
+          <nav class="col navbar navbar-expand-lg navbar-dark" style="background-color: #383c44;">
+            <a class="navbar-brand" href="index.html">
+              The Surfing Project
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarContent" class="collapse navbar-collapse">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html" style="color: white">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Le programme</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nos prochaines sessions</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Été 2022</a>
+                    <a class="dropdown-item" href="#">Automne 2022</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col px-0">
+        <div class="jumbotron darkened-image">           
+          <div class="d-flex justify-content-center h-100">
+            <div class="text-white text-center">
+              <h1 class="mb-2" style="font-size: 5vh; padding-top: 100px">Partez à l'aventure</h1>
+              <h5 class="pb-3" style="font-size: 2.5vh; padding-top: 7px">Découvrez notre école de surf en peer-learning</h5>
+              <div class="mt-0" id="boutons" style="padding-top: 7px">
+                <div class="btn-group">
+                  <a href="#" class="btn btn-primary text-center" style="font-size: 1.8vh">Je m'inscris à la prochaine session</a>
+                </div>
+                <div class="btn-group">
+                  <a href="#" class="btn btn-secondary text-center" style="font-size: 1.8vh">Je découvre le programme</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+	</header>
+
+	<div class="container">
+		<div class="row mx-3">
+			<div class="col-12 text-center" style="padding-top: 30px; padding-bottom: 20px">
+				<h3 style="font-size:  5vh">Why choose The Surfing Project ?</h3>
+			</div>
+			<div class="col-md-4 col-sm-12 px-3 text-center">
+				<i class="fa-solid fa-money-bill fa-6x fa-fade pb-3"></i>
+				<h3 style="text-align: center;">Unexpensive</h3>
+				<p style="text-align: justify; margin-top: 15px">We put an entire surf lesson into print that we’ll give you for free. It covers everything from beach conditions to paddling, to getting to your feet and surfing as well as safety tips and helpful information on surfboards, wetsuits, rip currents and more.</p>
+			</div>
+			<div class="col-md-4 col-sm-12 px-3 text-center">
+				<i class="fa-solid fa-couch fa-6x fa-fade pb-3"></i>
+				<h3 style="text-align: center;">Relaxation</h3>
+				<p style="text-align: justify; margin-top: 15px">Flexibility, body control, and conscious breathing are essential for progressive surfing. According to the ancient yogic text, the Yogasutra of Patanjali, Yoga means "The waves of thoughts come to rest in the spirit." The same will happen to you while you are in the waves of the ocean.</p>
+			</div>
+			<div class="col-md-4 col-sm-12 px-3 text-center">
+				<i class="fa-solid fa-people-group fa-6x fa-fade pb-3"></i>
+				<h3 style="text-align: center;">Community</h3>
+				<p style="text-align: justify; margin-top: 15px">Surf culture includes the people, language, fashion, and lifestyle surrounding the sport of surfing. It has affected music, fashion, literature, film, art, and youth jargon in popular culture. The number of surfers throughout the world continues to increase as the culture spreads.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 text-center">
+				<h3 style="font-size:  5vh; padding-top: 40px; padding-bottom: 20px">Testimonies</h3>
+			</div>
+			<div class="col-md-5 col-sm-12 card mx-4 my-2">
+				<img class="card-img-top" src="plage.jpg" alt="Plage" style="width: 100%; height: 40vh; object-fit: cover">
+				<div class="card-body">
+					<p class="card-text">Surfing's not a sport, it's a way of life. It's no hobby, it's a way of looking at that wave and say, "Let's party!"</p>
+					<small class="text-muted">Jeff, April 2019</small>
+				</div>
+			</div>
+			<div class="col-md-5 col-sm-12 card mx-4 my-2">
+				<img class="card-img-top" src="van.jpg" alt="Van" style="width: 100%; height: 40vh; object-fit: cover">
+				<div class="card-body">
+					<p class="card-text">Thanks to THP, I am traveling around the world with my van, and surf. If I had to do it again, I would.</p>
+					<small class="text-muted">Jean-Michel, October 2018</small>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 text-center">
+				<h3 style="font-size:  5vh; padding-top: 60px; padding-bottom: 20px">Price</h3>
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center mx-4 my-2">
+				<div class="card-header">One-Week Trial</div>
+				<div class="card-body">
+					<h4 class="card-title" style="font-size:  5vh">0€</h4>
+					<p class="card-text" style="font-size:  2vh">In Bali<br />
+					1 week</p>
+					<a href="#" class="btn btn-outline-primary btn-block w-100">Sign up</a>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center mx-4 my-2">
+				<div class="card-header">Early Bird</div>
+				<div class="card-body">
+					<h4 class="card-title" style="font-size:  5vh">15€</h4>
+					<p class="card-text" style="font-size:  2vh">In Bali<br />
+					12 weeks</p>
+					<a href="#" class="btn btn-primary btn-block w-100">Sign up</a>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center mx-4 my-2">
+				<div class="card-header">Split Payment</div>
+				<div class="card-body">
+					<h4 class="card-title" style="font-size:  5vh">7€/mo</h4>
+					<p class="card-text" style="font-size:  2vh">In Bali<br />
+					12 weeks</p>
+					<a href="#" class="btn btn-primary btn-block w-100">Sign up</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<p class="text-muted" style="padding-top: 30px; padding-left:15px">© Bootstrap & The Surfing Project
+		</p>
+	</footer>
+
+	</body>
+</html>
